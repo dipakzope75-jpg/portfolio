@@ -77,17 +77,19 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     margin-top: 20px;
-    background-color: #0077ff;
+    background: linear-gradient(45deg, #0077ff, #00c6ff);
     color: white;
-    padding: 12px 25px;
+    padding: 14px 30px;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 119, 255, 0.3);
 }
 
 .btn:hover {
-    background-color: #005fcc;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 119, 255, 0.5);
 }
 .cards {
     display: grid;
