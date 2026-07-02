@@ -5,37 +5,40 @@ body {
     background:linear-gradient(to right, #dfe9f3, #ffffff);
 }
 nav {
-    background-color: #333;
-    color: white;
-    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 nav h2 {
+    color: #0077ff;
     margin: 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    gap: 25px;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    margin-left: 20px;
-}
-
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #333;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #00bcd4;
+    color: #0077ff;
 }
 .hero {
     display: flex;
