@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background:linear-gradient(to right, #dfe9f3, #ffffff);
+    background:linear-gradient(to right,Light Blue-Gray,Pure White);
 }
 nav {
     position: sticky;
@@ -18,7 +18,7 @@ nav {
 }
 
 nav h2 {
-    color: #0077ff;
+    color: Bright Blue;
     margin: 0;
 }
 
@@ -32,13 +32,13 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: Dark Gray;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #0077ff;
+    color: Bright Blue;
 }
 .hero {
     display: flex;
@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .hero-text h2 {
-    color: #0077ff;
+    color:Bright Blue;
     margin-bottom: 15px;
 }
 
@@ -78,7 +78,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     margin-top: 20px;
-    background: linear-gradient(45deg, #0077ff, #00c6ff);
+    background: linear-gradient(45deg, Bright Blue,Sky Blue);
     color: white;
     padding: 14px 30px;
     text-decoration: none;
@@ -116,12 +116,12 @@ nav ul li a:hover {
 }
 
 .card h3 {
-    color: #0077ff;
+    color: Bright Blue;
     margin-bottom: 10px;
 }
 
 .card p {
-    color: #555;
+    color: Medium Dark Gray;
     line-height: 1.5;
 }
 @media (max-width: 768px) {
@@ -157,14 +157,14 @@ nav ul li a:hover {
 }
 
 .about h2 {
-    color: #0077ff;
+    color: Bright Blue;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 .about p {
     font-size: 18px;
-    color: #555;
+    color: Medium Dark Gray;
     line-height: 1.8;
     max-width: 700px;
     margin: auto;
@@ -176,7 +176,7 @@ nav ul li a:hover {
 
 .skills h2 {
     font-size: 35px;
-    color: #0077ff;
+    color: Bright Blue;
     margin-bottom: 30px;
 }
 
@@ -189,7 +189,7 @@ nav ul li a:hover {
 
 .skill {
     background: white;
-    color: #333;
+    color: Dark Gray;
     padding: 15px 30px;
     border-radius: 30px;
     font-weight: bold;
@@ -198,7 +198,7 @@ nav ul li a:hover {
 }
 
 .skill:hover {
-    background: #0077ff;
+    background:Bright Blue;
     color: white;
     transform: scale(1.05);
 }
@@ -209,7 +209,7 @@ nav ul li a:hover {
 
 .projects h2 {
     font-size: 35px;
-    color: #0077ff;
+    color:Bright Blue;
     margin-bottom: 30px;
 }
 
@@ -235,16 +235,16 @@ nav ul li a:hover {
 }
 
 .project-card h3 {
-    color: #0077ff;
+    color:Bright Blue;
     margin-bottom: 15px;
 }
 
 .project-card p {
-    color: #555;
+    color: Medium Dark Gray;
     line-height: 1.6;
 }
 footer {
-    background: #333;
+    background: Dark Gray;
     color: white;
     text-align: center;
     padding: 20px;
@@ -256,7 +256,7 @@ footer p {
     font-size: 16px;
 }
 .hero-text span {
-    color: #0077ff;
+    color: Bright Blue;
 }
 
 .hero-text h1 {
