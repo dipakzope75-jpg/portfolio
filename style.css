@@ -64,8 +64,12 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-    width: 300px;
+     width: 320px;
+    height: 320px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 .btn {
     display: inline-block;
