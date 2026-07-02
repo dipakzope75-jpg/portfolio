@@ -231,3 +231,15 @@ nav ul li a:hover {
     color: #555;
     line-height: 1.6;
 }
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
