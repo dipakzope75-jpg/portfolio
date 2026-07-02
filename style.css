@@ -190,3 +190,44 @@ nav ul li a:hover {
     color: white;
     transform: scale(1.05);
 }
+.projects {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 35px;
+    color: #0077ff;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.project-card h3 {
+    color: #0077ff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.6;
+}
