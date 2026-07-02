@@ -288,3 +288,19 @@ footer p {
     bottom: -60px;
     left: -60px;
 }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-text,
+.hero-image {
+    animation: fadeInUp 1s ease-out;
+}
