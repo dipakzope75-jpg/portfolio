@@ -44,9 +44,10 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 80px;
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
 }
-
 .hero-text {
     width: 50%;
 }
@@ -265,4 +266,25 @@ footer p {
 .hero-text h2 {
     font-size: 28px;
     font-weight: 600;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 119, 255, 0.15);
+    border-radius: 50%;
+    top: -80px;
+    right: -80px;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: rgba(0, 198, 255, 0.15);
+    border-radius: 50%;
+    bottom: -60px;
+    left: -60px;
 }
