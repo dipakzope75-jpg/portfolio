@@ -112,3 +112,26 @@ nav ul li a:hover {
     color: #555;
     line-height: 1.5;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 220px;
+        margin-top: 25px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+
+}
