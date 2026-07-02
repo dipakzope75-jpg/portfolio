@@ -37,3 +37,33 @@ nav ul li a {
 nav ul li a:hover {
     color: #00bcd4;
 }
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    color: #0077ff;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 50%;
+}
