@@ -82,3 +82,33 @@ nav ul li a:hover {
 .btn:hover {
     background-color: #005fcc;
 }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px 80px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.5;
+}
