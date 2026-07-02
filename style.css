@@ -157,3 +157,36 @@ nav ul li a:hover {
     max-width: 700px;
     margin: auto;
 }
+.skills {
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.skills h2 {
+    font-size: 35px;
+    color: #0077ff;
+    margin-bottom: 30px;
+}
+
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: white;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #0077ff;
+    color: white;
+    transform: scale(1.05);
+}
