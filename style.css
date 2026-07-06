@@ -152,3 +152,11 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+img {
+  width: 150px;       /* image size */
+  height: 150px;      /* image size */
+  border-radius: 50%; /* makes image round */
+  object-fit: cover;  /* crop/fit image nicely */
+  border: 3px solid #203a43; /* optional border */
+}
+
