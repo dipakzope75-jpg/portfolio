@@ -143,3 +143,12 @@ footer {
   background: #0f2027;
   color: #fff;
 }
+.cards a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cards a:hover .card {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
