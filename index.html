@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipak Zope Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <h1>Dipak Zope</h1>
+  <!-- Header -->
+  <header>
+    <div class="logo">Dipak Zope</div>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<section class="hero">
-    <h2>Hello, I'm Dipak</h2>
-    <p>Beginner Web Developer</p>
-    <button>View Projects</button>
-</section>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Dipak Zope">
+    </div>
+    <div class="intro">
+      <h1>Hello I'm Dipak 👋</h1>
+      <p>I am Learning HTML<br>
+      I am learning HTML step by step. My goal is to become a web developer.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
 
-<section class="about">
+  <!-- Skills Cards -->
+  <section class="cards">
+    <div class="card"> 
+      <h3>HTML</h3>
+      <p>I am learning HTML and building my first project.</p>
+    </div>
+    <div class="card"> 
+      <h3>CSS</h3>
+      <p>I am learning CSS to make websites beautiful.</p>
+    </div>
+    <div class="card"> 
+      <h3>JavaScript</h3>
+      <p>I will learn JavaScript to make websites interactive.</p>
+    </div>
+    <div class="card"> 
+      <h3>GitHub</h3>
+      <p>I am learning GitHub Step by Step.</p>
+    </div>
+    <div class="card"> 
+      <h3>My Project</h3>
+      <p>This is my first project which I created using HTML & CSS.</p>
+    </div>
+    <div class="card"> 
+      <h3>Learn More</h3>
+      <p>I am Learning GitHub Step by Step.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I am learning HTML and CSS.</p>
-</section>
+    <p>Hello! My name is Dipak Zope.<br>
+    I am learning HTML, CSS and GitHub step by step.<br>
+    My goal is to web developer.</p>
+  </section>
 
-<footer>
-    <p>© 2026 Dipak Zope</p>
-</footer>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-buttons">
+      <button>HTML</button>
+      <button>CSS</button>
+      <button>JavaScript</button>
+      <button>GitHub</button>
+      <button>VS Code</button>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Dipak. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
