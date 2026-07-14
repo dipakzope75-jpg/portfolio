@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Karnan — AI/ML Engineer · Climate Systems</title>
-<link rel="stylesheet" href="style.css">
-<meta name="description" content="Portfolio of Karnan, an AI/ML engineer building climate-intelligent systems — digital twins, reinforcement learning, and computer vision for urban heat mitigation.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipak Zope Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<canvas id="bg-canvas"></canvas>
-<div class="noise-overlay"></div>
-
-<header>
-  <div class="nav-inner">
-    <a href="#hero" class="logo"><span class="logo-mark">K</span>Karnan</a>
+  <!-- Header -->
+  <header>
+    <div class="logo">Dipak Zope</div>
     <nav>
       <ul>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <a href="#contact" class="nav-cta">Let's talk</a>
-    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-  </div>
-</header>
+  </header>
 
-<!-- ================= HERO ================= -->
-<section id="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="hero-eyebrow"><span class="dot"></span>Available for select projects</div>
-      <h1>Building AI that helps cities<br><span class="gradient-text">breathe cooler.</span></h1>
-      <p class="lead">I'm Karnan, an AI/ML engineer working at the intersection of deep learning, reinforcement learning, and geospatial data — designing digital twins and predictive systems for urban heat mitigation.</p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View projects →</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="intro">
+      <img src="t.jpeg" alt="Dipak Profile" class="profile-img">
+      <h1>Hello, I'm <span>Dipak Zope</span> 👋</h1>
+      <p>BCA Student | Currently pursuing BCA</p>
+      <p>I am learning HTML, CSS, JavaScript, and DSA step by step.  
+      Focused on my goal to become a web developer.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Dipak Zope.  
+    I am currently pursuing BCA and learning modern web technologies.  
+    I enjoy solving problems with DSA and building interactive websites.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-buttons">
+      <button>HTML</button>
+      <button>CSS</button>
+      <button>JavaScript</button>
+      <button>DSA</button>
+      <button>GitHub</button>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <a href="p2.html" target="_blank">
+          <h3>HTML File</h3>
+        </a>
+        <p>A responsive portfolio built with HTML & CSS.</p>
       </div>
-      <div class="hero-stats">
-        <div class="hero-stat"><b>3+</b><span>Yrs in applied ML</span></div>
-        <div class="hero-stat"><b>12+</b><span>Models shipped</span></div>
-        <div class="hero-stat"><b>2</b><span>Languages, one mission</span></div>
+      <div class="card">
+        <a href="p3.html" target="_blank">
+          <h3>JavaScript Calculator</h3>
+        </a>
+        <p>A simple calculator using JavaScript logic.</p>
+      </div>
+      <div class="card">
+        <a href="ll_.c" target="_blank">
+          <h3>DSA Practice</h3>
+        </a>
+        <p>Solving problems in arrays and linked lists.</p>
       </div>
     </div>
-    <div class="hero-canvas-wrap">
-      <div class="glow-ring"></div>
-      <canvas id="hero-canvas"></canvas>
-    </div>
-  </div>
-  <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
-</section>
+  </section>
 
-<!-- ================= ABOUT ================= -->
-<section id="about">
-  <div class="wrap">
-    <div class="eyebrow">About</div>
-    <h2 class="section-title reveal">Trained on data. Grounded in cities.</h2>
-    <div class="about-grid">
-      <div class="about-visual reveal">
-        <div class="grid-lines"></div>
-        <div class="id-tag">
-          <div class="mono">// profile.json</div>
-          <h4>Karnan · AI/ML Engineer</h4>
-        </div>
-      </div>
-      <div class="about-text reveal">
-        <p>I build systems where <strong>machine learning meets the built environment</strong> — combining computer vision, reinforcement learning, and digital-twin simulation to model, predict, and reduce urban heat exposure.</p>
-        <p>My recent work spans real-time heat-risk dashboards, satellite-driven canopy analysis, and bilingual (English/Gujarati) tools that make climate data legible to the people making decisions on the ground — planners, municipal teams, and communities.</p>
-        <p>I care about shipping things that are technically rigorous <strong>and</strong> genuinely usable: clean interfaces, fast interactions, and models that hold up outside the notebook.</p>
-        <div class="focus-list">
-          <div class="focus-item glass-card">
-            <div class="num mono">01</div>
-            <h5>Applied ML</h5>
-            <p>Deep learning & RL for predictive climate systems</p>
-          </div>
-          <div class="focus-item glass-card">
-            <div class="num mono">02</div>
-            <h5>Geospatial CV</h5>
-            <p>Satellite & sensor imagery for canopy and heat mapping</p>
-          </div>
-          <div class="focus-item glass-card">
-            <div class="num mono">03</div>
-            <h5>Digital Twins</h5>
-            <p>Live simulations that model cooling interventions</p>
-          </div>
-          <div class="focus-item glass-card">
-            <div class="num mono">04</div>
-            <h5>Product</h5>
-            <p>Dashb
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:dipakzope75@gmail.com">dipakzope75@gmail.com</a></p>
+    <p>Phone: +91 9879353540 </p>
+    <p>Instagram: <a href="https://www.instagram.com/zope9086" target="_blank">@zope9086</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Dipak Zope. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
