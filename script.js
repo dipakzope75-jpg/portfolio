@@ -233,3 +233,93 @@ heroImage.classList.toggle("float");
 
 console.log("Welcome to Dipak Zope Portfolio 🚀");
 
+// ===============================
+// CURSOR GLOW EFFECT
+// ===============================
+
+const cursorGlow = document.createElement("div");
+
+cursorGlow.classList.add("cursor-glow");
+
+document.body.appendChild(cursorGlow);
+
+
+document.addEventListener("mousemove", (e)=>{
+
+    cursorGlow.style.left = e.clientX + "px";
+    cursorGlow.style.top = e.clientY + "px";
+
+});
+
+
+// ===============================
+// PAGE LOADING EFFECT
+// ===============================
+
+window.addEventListener("load",()=>{
+
+    document.body.classList.add("loaded");
+
+});
+
+
+// ===============================
+// BUTTON CLICK EFFECT
+// ===============================
+
+const buttons = document.querySelectorAll(".btn, .project-btn");
+
+buttons.forEach(button=>{
+
+    button.addEventListener("click",()=>{
+
+        button.style.transform="scale(0.95)";
+
+        setTimeout(()=>{
+
+            button.style.transform="";
+
+        },150);
+
+    });
+
+});
+
+
+// ===============================
+// CARD 3D TILT EFFECT
+// ===============================
+
+const cards = document.querySelectorAll(
+".skill-card, .project-card, .certificate-card"
+);
+
+
+cards.forEach(card=>{
+
+    card.addEventListener("mousemove",(e)=>{
+
+        const rect = card.getBoundingClientRect();
+
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const rotateX = (y - rect.height/2) / 15;
+        const rotateY = (rect.width/2 - x) / 15;
+
+
+        card.style.transform =
+        `perspective(800px)
+        rotateX(${rotateX}deg)
+        rotateY(${rotateY}deg)`;
+
+    });
+
+
+    card.addEventListener("mouseleave",()=>{
+
+        card.style.transform="";
+
+    });
+
+});
