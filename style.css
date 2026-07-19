@@ -486,4 +486,22 @@ flex-direction:column;
 }
 
 }
+/* Typing Text */
+
+.typing{
+
+color:#00d4ff;
+font-weight:700;
+
+}
+
+/* Floating Image */
+
+.float{
+
+transform:translateY(-15px);
+transition:1.5s;
+
+}
+
 
