@@ -503,5 +503,36 @@ transform:translateY(-15px);
 transition:1.5s;
 
 }
+/* ===============================
+   CURSOR GLOW
+================================ */
+
+.cursor-glow{
+
+position:fixed;
+width:25px;
+height:25px;
+border-radius:50%;
+background:#00d4ff;
+pointer-events:none;
+transform:translate(-50%,-50%);
+filter:blur(15px);
+z-index:9999;
+
+}
+
+
+/* ===============================
+   3D CARD EFFECT
+================================ */
+
+.skill-card,
+.project-card,
+.certificate-card{
+
+transform-style:preserve-3d;
+transition:.3s;
+
+}
 
 
